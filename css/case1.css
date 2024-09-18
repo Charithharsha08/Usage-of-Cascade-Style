@@ -6,21 +6,21 @@
 
     background-color: red;
     width: 50%;
-    height: 480px;
+    height: 50%;
     position: absolute;
 }
 .topleft{
     background-color: white;
-    width: 100px;
-    height: 100px;
+    width: 20%;
+    height: 20%;
     border-bottom-right-radius: 100%;
     position: absolute;
 }
 
 .topright{
     background-color: white;
-    width: 100px;
-    height: 100px;
+    width: 20%;
+    height: 20%;
     border-bottom-left-radius: 100%;
     position: absolute;
     top: 0;
@@ -28,8 +28,8 @@
 }
 .bottomright{
     background-color: white;
-    width: 100px;
-    height: 100px;
+    width: 20%;
+    height: 20%;
     border-top-left-radius: 100%;
     position: absolute;
    bottom: 0;
@@ -38,8 +38,8 @@
 
 .bottomleft{
     background-color: white;
-    width: 100px;
-    height: 100px;
+    width: 20%;
+    height: 20%;
     border-top-right-radius: 100%;
     position: absolute;
    bottom: 0;
@@ -49,7 +49,7 @@
 .bggreen{
     background-color: green;
     width: 50%;
-    height: 480px;
+    height:50%;
     position: absolute;
     top: 0%;
     left: 50%;
@@ -57,27 +57,57 @@
 .bgyellow{
     background-color: yellow;
     width: 50%;
-    height: 480px;
+    height: 50%;
     position: absolute;
     top: 50%;
    right: 50%;
 }
 .bgpink{
-    background-color: pink;
+    background-color: rgb(243, 106, 255);
     width: 50%;
-    height: 480px;
+    height: 50%;
     position: absolute;
     top: 50%;
    left: 50%;
 }
 .squre{
-    width: 100px;
-    height: 100px;
+    width: 20%;
+    height: 20%;
     background-color: white;
     position: absolute;
 top: 50%;  
 left: 50%;
   transform: translate(-50%, -50%);
+}
 
+.squre-circle{
+    width: 60%;
+    height: 60%;
+    background-color: red;
+    position: absolute;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
+}
+
+.circle-squre{
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    position: absolute;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.circle-squre-center-circle{
+    width: 40%;
+    height: 40%;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
