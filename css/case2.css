@@ -8,6 +8,27 @@ header{
 .logo{
     padding: 2%;
 }
- .navbar {
-    margin: 20px;
+ .nav-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.nav-bar li{
+    list-style: none;
+    display: inline-block;
+    
+}
+.nav-bar li a{
+    font-size: 14px;
+    margin-right: 25px;
+    color: black;
+    padding: 2px;
+    text-decoration: none;
+}
+.side-bar-section{
+    background: purple;
+    width: 20%;
+    height: 100%;
 }
