@@ -27,8 +27,23 @@ header{
     padding: 2px;
     text-decoration: none;
 }
-.side-bar-section{
-    background: purple;
+.side-nav-bar{
     width: 20%;
-    height: 100%;
+    height: 500px;
+    background-color: purple;
 }
+
+.image-bar img{
+    width: 30%;
+    height: auto;
+}
+.main-section{
+    display: flex;
+}
+.footer{
+    width: 100%;
+    height: 20px;
+    background-color: aqua;
+}
+
+.main-pragraph{}
