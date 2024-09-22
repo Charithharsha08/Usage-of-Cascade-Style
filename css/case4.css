@@ -1,3 +1,97 @@
 * {
+  margin: 0;
   font-family: "Roboto", sans-serif;
+}
+.page {
+  width: 100%;
+  height: 1080px;
+}
+.card-1 {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0%;
+}
+.card-2 {
+  width: 100%;
+  height: 50px;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0%;
+}
+.card-3 {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(27, 26, 26);
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0%;
+}
+.card-4 {
+  width: 100%;
+  height: 50px;
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0%;
+}
+
+.card-1-body-text {
+  width: 100%;
+  height: 1030px;
+  background-color: white;
+  font-size: 100px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-2-body-text {
+  width: 100%;
+  height: 1030px;
+  background-color: lightblue;
+  font-size: 100px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-3-body-text {
+  width: 100%;
+  height: 1030px;
+  background-color: gray;
+  font-size: 100px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-4-body-text {
+  width: 100%;
+  height: 1030px;
+  background-color: rgb(255, 102, 0);
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
