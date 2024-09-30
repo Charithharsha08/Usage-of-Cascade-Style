@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  /* background-color: antiquewhite; */
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 1%;
+  margin-bottom: 2%;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.case1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.case2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.case3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.case4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.case5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.case6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.right-side {
+  margin-top: 2%;
+  width: 70%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.right-side p {
+  font-weight: bold;
+  margin-left: 3%;
+}
+button {
+  margin-top: 10%;
+  padding: 3%;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+button:hover {
+  background-color: rgb(255, 0, 0);
+  color: black;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+button > a {
+  color: white;
+  text-decoration: none;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
