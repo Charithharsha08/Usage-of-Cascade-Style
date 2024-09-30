@@ -64,8 +64,9 @@ img {
 }
 button {
   margin-top: 10%;
-  padding: 3%;
+  padding: 15px;
   background-color: black;
+  align-items: center;
   color: white;
   border-radius: 20px;
   border: 1px solid white;
@@ -73,6 +74,8 @@ button {
 button:hover {
   background-color: rgb(255, 0, 0);
   color: black;
+  box-shadow: 0 0 5px rgb(255, 0, 0), 0 0 25px rgb(255, 0, 0),
+    0 0 50px rgb(255, 0, 0), 0 0 200px rgb(255, 0, 0);
   -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
 button > a {
